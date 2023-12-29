@@ -30,8 +30,7 @@ c1,c2,c3 = st.columns([1,1,1])
 with c1:
     pass
 with c2:
-    st.image("assets/img/logo.jpeg",width=300)
-    st.title("Log Analyzer")   
+    st.image("assets/img/logo.jpeg",width=300)  
 with c3:
     pass
 

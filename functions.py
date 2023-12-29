@@ -54,14 +54,15 @@ def log_analyzer(data,log_type):
 
             hea = hea.header("Check")
             st.info("Check information of the log file")
+            st.warning("Right click to Export the information")
             new_df = check_log(dataframe)
 
-            n , hea = st.columns([0.05,0.95])
-            n = n.warning("3")
+            # n , hea = st.columns([0.05,0.95])
+            # n = n.warning("3")
 
-            hea = hea.header("Export")
-            st.info("Export the information to csv file")
-            if st.button("Export"): 
-                st.write(new_df)
-                data_as_csv= new_df.to_csv(index=False).encode("utf-8")
-                st.download_button("Download the export",data=data_as_csv,file_name="export.csv",mime="text/csv")
+            # hea = hea.header("Export")
+            # st.info("Export the information to csv file")
+            # if st.button("Export"): 
+            #     st.write(new_df)
+            #     data_as_csv= new_df.to_csv(index=False).encode("utf-8")
+            #     st.download_button("Download the export",data=data_as_csv,file_name="export.csv",mime="text/csv")
