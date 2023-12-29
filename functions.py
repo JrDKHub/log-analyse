@@ -22,6 +22,7 @@ def check_log(df):
     gridtable = AgGrid(
         df,
         gridOptions=gridOptions,
+        update_mode="manual",
         fit_columns_on_grid_load=False,
         theme='balham', #theme color for the table
         height=350,

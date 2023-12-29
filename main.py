@@ -21,10 +21,7 @@ st.set_page_config(
     page_icon=":file:",
     layout="wide",
     initial_sidebar_state="expanded",
-    menu_items={
-        # 'Get Help': 'https://www.linkedin.com/in/ars%C3%A8ne-bakandakan/',
-        # 'About': "# cool app! Made with 💖"
-    }
+
 )
 
 # logo
