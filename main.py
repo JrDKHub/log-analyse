@@ -18,10 +18,7 @@ import functions as fn
 
 st.set_page_config(
     page_title="Log Analyze",
-    page_icon=":file:",
-    layout="wide",
-    initial_sidebar_state="expanded",
-
+    page_icon="🧾",
 )
 
 # logo
